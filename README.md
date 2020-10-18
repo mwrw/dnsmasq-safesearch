@@ -15,14 +15,14 @@ This file is a dnsmasq compatible configuration file containing the cname mappin
 
 ### Linux
 
-Install in the config file in `/etc/dnsmasq.d`
-Restart the DNS resolver:
+1. Install in the config file in `/etc/dnsmasq.d`
+2. Restart the DNS resolver:
 `/etc/init.d/dnsmasq restart`
 or 
 `sudo restart network-manager`
 
 
 ### Pihole
-Install in the config file in `/etc/dnsmasq.d`
-Restart the DNS reolver (aka pihole-FTL) via `pihole restartdns`
+1. Install in the config file in `/etc/dnsmasq.d`
+2. Restart the DNS reolver (aka pihole-FTL) via `pihole restartdns`
 
